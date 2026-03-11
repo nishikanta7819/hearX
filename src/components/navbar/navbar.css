@@ -64,9 +64,15 @@
 
 @media(max-width:768px) {
   .navbar {
-  padding-left: 0px;
-  padding-right: 0px;
-}
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .navbar-logo img {
+    height: 40px;
+    cursor: pointer;
+  }
+
   .navbar-links {
     display: none;
   }
