@@ -1,6 +1,6 @@
 import React from "react";
 import Products from "../../Products";
-import Hero from "../../components/Hero/Hero";
+import Hero from "../../components/hero/Hero";
 import Categorycards from "../../components/categorycards/Categorycards";
 
 const Shop = () => {
