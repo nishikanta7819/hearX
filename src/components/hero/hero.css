@@ -9,7 +9,14 @@
     font-weight: 600;
 
 }
-.banner-image{
+
+.banner-image {
     width: 100%;
     object-fit: cover;
+}
+
+@media(max-width:768px) {
+    .hero-text {
+        display: none;
+    }
 }
