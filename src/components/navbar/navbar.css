@@ -63,9 +63,6 @@
 }
 
 @media(max-width:768px) {
-  .navbar-search {
-    margin-left: 280px;
-  }
   .navbar-links {
     display: none;
   }
