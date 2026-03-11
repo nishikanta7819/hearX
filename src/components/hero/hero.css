@@ -1,0 +1,15 @@
+.hero-text {
+    display: flex;
+    justify-content: center;
+}
+
+.hero-text span {
+    text-transform: uppercase;
+    font-size: 150px;
+    font-weight: 600;
+
+}
+.banner-image{
+    width: 100%;
+    object-fit: cover;
+}

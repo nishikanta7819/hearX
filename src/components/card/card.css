@@ -1,0 +1,62 @@
+.card {
+  background-color: hsl(0, 0%, 90%);
+  width: calc(25% - 25px);
+  height: 400px;
+  display: grid;
+  grid-template-rows: 200px auto auto auto 1fr;
+  padding: 10px;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.item-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-image img {
+  height: 180px;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.item-name,
+.item-color,
+.item-price {
+  padding-left: 15px;
+  margin-bottom: 10px;
+}
+
+.item-color p {
+  font-size: 12px;
+}
+
+.item-name p {
+  cursor: pointer;
+}
+
+.item-name p:hover {
+  text-decoration: underline;
+}
+
+.item-price {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.add-to-cart button {
+  margin-top: 20px;
+  padding: 15px;
+  width: 100%;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.add-to-cart button:hover {
+  background-color: hsl(0, 0%, 10%);
+  color: white;
+  border: none;
+}

@@ -1,0 +1,17 @@
+.products-page {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.products-page-title {
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-left: 40px;
+}
+
+.products-page-products {
+    display: "flex";
+    gap: "25px";
+    flex-wrap: wrap;
+    padding: "40px";
+}
